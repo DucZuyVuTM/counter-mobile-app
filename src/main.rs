@@ -26,6 +26,42 @@ fn App() -> Element {
 pub fn Counter() -> Element {
     let mut count = use_signal(|| 0);
 
+    // Call JS for triggering animation
+    let trigger_animation = move || {
+        spawn(async {
+            let js_code = r#"
+                const counterEl = document.getElementById('counter-display');
+                if (counterEl) {
+                    // Remove class
+                    counterEl.classList.remove('scale-animate');
+                    
+                    // Force reflow so that browser can realize that class is removed
+                    void counterEl.offsetWidth;
+                    
+                    // Add class again to trigger animation
+                    counterEl.classList.add('scale-animate');
+                }
+            "#;
+            
+            let _ = document::eval(js_code).await;
+        });
+    };
+
+    let handle_increment = move |_| {
+        count += 1;
+        trigger_animation();
+    };
+
+    let handle_decrement = move |_| {
+        count -= 1;
+        trigger_animation();
+    };
+
+    let handle_reset = move |_| {
+        count.set(0);
+        trigger_animation();
+    };
+
     rsx! {
         div { class: "flex flex-col items-center justify-center min-h-screen bg-gray-100 font-sans",
             h1 {
@@ -34,6 +70,7 @@ pub fn Counter() -> Element {
             }
 
             h2 {
+                id: "counter-display",
                 class: "text-6xl font-mono text-blue-600 mb-8",
                 "{count}"
             }
@@ -41,19 +78,19 @@ pub fn Counter() -> Element {
             div { class: "flex gap-4",
                 button {
                     class: "px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
-                    onclick: move |_| count += 1,
+                    onclick: handle_increment,
                     "Increase"
                 }
 
                 button {
                     class: "px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
-                    onclick: move |_| count -= 1,
+                    onclick: handle_decrement,
                     "Decrease"
                 }
 
                 button {
                     class: "px-6 py-3 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
-                    onclick: move |_| count.set(0),
+                    onclick: handle_reset,
                     "Reset"
                 }
             }
