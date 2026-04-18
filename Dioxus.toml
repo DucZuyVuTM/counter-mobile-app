@@ -1,4 +1,7 @@
 [application]
+name = "counter-mobile-app"
+# Prioritize mobile platforms when building.
+default_platform = "mobile"
 
 [web.app]
 
@@ -18,4 +21,23 @@ script = []
 
 # Javascript code file
 # serve: [dev-server] only
+style = []
 script = []
+
+# Important configuration for Mobile
+[mobile]
+# Unique identifier on the Android Store or Android Phone
+package_id = "com.vuduczuy.counter"
+app_name = "CounterMobile"
+
+[android]
+# Minimum SDK version (usually 21 for Android 5.0+)
+min_sdk_version = 21
+# You can add permissions here if needed (example: internet)
+build_features = ["viewBinding"]
+
+[bundle]
+# Information for packaging the app
+identifier = "com.vuduczuy.counter"
+publisher = "VuDucZuy"
+icon = ["assets/favicon.ico"]

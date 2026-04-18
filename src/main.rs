@@ -6,6 +6,24 @@ const MAIN_CSS: Asset = asset!("/assets/main.css");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
 
 fn main() {
+    // Logger for Android OS
+    #[cfg(target_os = "android")]
+    {
+        android_logger::init_once(
+            android_logger::Config::default()
+                .with_max_level(log::LevelFilter::Trace)
+                .with_tag("COUNTER_APP"),
+        );
+        log::info!("Android logger is ready!");
+    }
+
+    // Logger for Web
+    #[cfg(target_arch = "wasm32")]
+    {
+        wasm_logger::init(wasm_logger::Config::default());
+        log::info!("Web logger is ready!");
+    }
+
     // For running in Mobile/Desktop, we use launch
     // For running in Web, we use dioxus_web::launch
     launch(App);
@@ -64,10 +82,7 @@ pub fn Counter() -> Element {
 
     rsx! {
         div { class: "flex flex-col items-center justify-center min-h-screen bg-gray-100 font-sans",
-            h1 {
-                class: "text-4xl font-bold text-gray-800 mb-4",
-                "Basic Counter"
-            }
+            h1 { class: "text-4xl font-bold text-gray-800 mb-4", "Basic Counter" }
 
             h2 {
                 id: "counter-display",
