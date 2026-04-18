@@ -71,11 +71,11 @@ pub fn Counter() -> Element {
 
             h2 {
                 id: "counter-display",
-                class: "text-6xl font-mono text-blue-600 mb-8",
+                class: "text-6xl text-center font-mono text-blue-600 mb-8 max-w-full break-words",
                 "{count}"
             }
 
-            div { class: "flex gap-4",
+            div { class: "flex flex-col gap-4 sm:flex-row",
                 button {
                     class: "px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
                     onclick: handle_increment,
