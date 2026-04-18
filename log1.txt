@@ -1,0 +1,201 @@
+ 16.42s  INFO [android] --------- beginning of main
+ 16.42s  INFO [android] I/libc    (28128): SetHeapTaggingLevel: tag level set to 0
+ 16.42s  INFO [android] I/uduczuy.counter(28128): Late-enabling -Xcheck:jni
+ 16.42s  INFO [android] I/uduczuy.counter(28128): Using CollectorTypeCC GC.
+ 16.42s  INFO [android] D/nativeloader(28128): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+ 16.42s  INFO [android] D/ActivityThread(28128): setConscryptValidator
+ 16.42s  INFO [android] D/ActivityThread(28128): setConscryptValidator - put
+ 16.42s  INFO [android] D/nativeloader(28128): Load libstats_jni.so using APEX ns com_android_os_statsd for caller /apex/com.android.os.statsd/javalib/framework-statsd.jar: ok
+ 16.42s  INFO [android] D/CompatibilityChangeReporter(28128): Compat change id reported: 171979766; UID 10525; state: ENABLED
+ 16.42s  INFO [android] D/nativeloader(28128): Configuring clns-4 for other apk /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64:/data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.vuduczuy.counter
+ 16.42s  INFO [android] D/nativeloader(28128): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+ 16.42s  INFO [android] D/NetworkSecurityConfig(28128): Using Network Security Config from resource network_security_config debugBuild: true
+ 16.42s  INFO [android] D/NetworkSecurityConfig(28128): Using Network Security Config from resource network_security_config debugBuild: true
+ 16.42s  INFO [android] D/OpenGLRenderer(28128): RenderThread::requireGlContext()
+ 16.42s  INFO [android] D/libMEOW (28128): meow new tls: 0x7ab07ca400
+ 16.42s  INFO [android] D/libMEOW (28128): meow reload base cfg path: na
+ 16.42s  INFO [android] D/libMEOW (28128): meow reload overlay cfg path: na
+ 16.42s ERROR [android] E/QT      (28128): [QT]file does not exist
+ 16.42s  INFO [android] D/libMEOW (28128): applied 2 plugins for [com.vuduczuy.counter]:
+ 16.42s  INFO [android] D/libMEOW (28128):   plugin 1: [libMEOW_gift.so]:
+ 16.42s  INFO [android] D/libMEOW (28128):   plugin 2: [libMEOW_semaphore]:
+ 16.42s  INFO [android] D/nativeloader(28128): Load /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so using class loader ns clns-4 (caller=/data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/base.apk!classes3.dex): ok
+ 16.42s  INFO [android] D/AppCompatDelegate(28128): Checking for metadata for AppLocalesMetadataHolderService : Service not found
+ 16.42s ERROR [android] E/OpenGLRenderer(28128): Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+ 16.42s ERROR [android] W/OpenGLRenderer(28128): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+ 16.42s  INFO [android] D/OpenGLRenderer(28128): RenderThread::setGrContext()
+ 16.42s  INFO [android] I/COUNTER_APP(28128): counter_mobile_app: Android logger is ready!
+ 16.42s  INFO [android] I/DecorView(28128): [INFO] isPopOver=false config=true
+ 16.42s  INFO [android] I/DecorView(28128): updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@93ab4d3[]
+ 16.42s  INFO [android] D/DecorView(28128): setCaptionType = 0, this = DecorView@93ab4d3[]
+ 16.42s  INFO [android] D/COUNTER_APP(28128): jni::wrapper::java_vm::vm: Attached thread main (ThreadId(2)). 1 threads attached
+ 16.42s  INFO [android] D/COUNTER_APP(28128): jni::wrapper::java_vm::vm: Detached thread main (ThreadId(2)). 0 threads remain attached
+ 16.42s  INFO [android] D/COUNTER_APP(28128): jni::wrapper::java_vm::vm: Attached thread main (ThreadId(2)). 1 threads attached
+ 16.42s  INFO [android] D/COUNTER_APP(28128): tungstenite::client: Trying to contact ws://127.0.0.1:8080/_dioxus?aslr_reference=525049749824&build_id=0&pid=28128 at 127.0.0.1:8080...
+ 16.42s  INFO [android] I/DecorView(28128): getCurrentDensityDpi: from real metrics. densityDpi=300 msg=resources_loaded  
+ 16.42s  INFO [android] I/DecorView(28128): setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@13d2f09
+ 16.42s  INFO [android] D/COUNTER_APP(28128): jni::wrapper::java_vm::vm: Detached thread main (ThreadId(2)). 0 threads remain attached
+ 16.43s  INFO [android] D/COUNTER_APP(28128): tungstenite::handshake::client: Client handshake done.
+ 16.43s  INFO [android] I/uduczuy.counter(28128): hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+ 16.43s  INFO [android] I/MSHandlerLifeCycle(28128): check: return. pkg=com.vuduczuy.counter parent=null callers=com.android.internal.policy.DecorView.setVisibility:4373 android.app.ActivityThread.handleResumeActivity:5463 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176
+ 16.43s  INFO [android] I/MSHandlerLifeCycle(28128): removeMultiSplitHandler: no exist. decor=DecorView@93ab4d3[]
+ 16.43s  INFO [android] D/NativeCustomFrequencyManager(28128): [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+ 16.43s  INFO [android] D/InsetsController(28128): onStateChanged: InsetsState: {mDisplayFrame=Rect(0, 0 - 720, 1600), mDisplayCutout=DisplayCutout{insets=Rect(0, 58 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(298, 0 - 422, 58), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M62.05,0l-2.7,0l-2.7,0l-1.4,0.1L53.95,0.2l-1.3,0.2l-1.3,0.2L49.95,0.9l-1.3,0.4l-1.3,0.5l-1.2,0.6L44.95,3 l-1.1,0.7l-1,0.8l-1,0.9l-0.9,1l-0.8,1l-0.7,1.1l-0.7,1.2l-0.6,1.2l-0.5,1.3l-0.4,1.3l-0.4,1.3l-0.5,2.3l-0.4,2.3l-0.4,2.3L34.95,23.9 l-0.6,2.3l-0.7,2.2l-0.4,1.1L32.95,30.6l-0.5,1.1L31.95,32.7c-3.5,7.2-9.3,13.1-16.6,16.6c-17.7,8.5-38.9,1.1-47.4-16.6l-0.5-1.1 l-0.5-1.1l-0.4-1.1l-0.4-1.1l-0.7-2.2l-0.6-2.3l-0.5-2.3l-0.4-2.3l-0.4-2.3l-0.5-2.3l-0.4-1.3l-0.4-1.3L-38.15,11l-0.6-1.2l-0.7-1.2 L-40.05,7.5l-0.8-1l-0.9-1l-1-0.9l-1-0.8L-44.95,3l-1.2-0.6l-1.2-0.6l-1.3-0.5l-1.3-0.4l-1.3-0.3L-52.55,0.4L-53.95,0.2L-55.25,0.1L-56.65,0L-59.35,0 L-62.05,0Z} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=60, center=Point(60, 60)}, RoundedCorner{position=TopRight, radius=60, center=Point(660, 60)}, RoundedCorner{position=BottomRight, radius=60, center=Point(660, 1540)}, RoundedCorner{position=BottomLeft, radius=60, center=Point(60, 1540)}]}  mRoundedCornerFrame=Rect(0, 0 - 720, 1600), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(637, 0 - 720, 58) rotation=0}, mSources= { InsetsSource: {mType=ITYPE_STATUS_BAR, mFrame=[0,0][720,58], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_NAVIGATION_BAR, mFrame=[0,1510][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_GESTURES, mFrame=[0,0][0,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_GESTURES, mFrame=[720,0][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_MANDATORY_GESTURES, mFrame=[0,0][720,81], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_MANDATORY_GESTURES, mFrame=[0,1510][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_LEFT_DISPLAY_CUTOUT, mFrame=[0,0][-100000,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_DISPLAY_CUTOUT, mFrame=[0,0][720,58], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_RIGHT_DISPLAY_CUTOUT, mFrame=[100000,0][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_DISPLAY_CUTOUT, mFrame=[0,100000][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_TOP_TAPPABLE_ELEMENT, mFrame=[0,0][720,58], mVisible=true, mInsetsRoundedCornerFrame=false}, InsetsSource: {mType=ITYPE_BOTTOM_TAPPABLE_ELEMENT, mFrame=[0,1510][720,1600], mVisible=true, mInsetsRoundedCornerFrame=false} } host=com.vuduczuy.counter/dev.dioxus.main.MainActivity from=android.view.ViewRootImpl.setView:1700
+ 16.43s  INFO [android] I/ViewRootImpl@56eb2b[MainActivity](28128): setView = com.android.internal.policy.DecorView@93ab4d3 TM=true
+ 16.43s  INFO [android] I/MSHandlerLifeCycle(28128): removeMultiSplitHandler: no exist. decor=DecorView@93ab4d3[MainActivity]
+ 16.43s  INFO [android] I/cr_WVCFactoryProvider(28128): version=146.0.7680.177 (768017703) minSdkVersion=29 multiprocess=true packageId=127 splits=<none>
+ 16.47s  INFO [android] D/nativeloader(28128): Load /data/app/~~sg5QOrrvCJnJI03YhDG1RA==/com.google.android.webview-VTNI9ImYt4KQuk4hsm_Giw==/base.apk!/lib/arm64-v8a/libwebviewchromium.so using class loader ns clns-5 (caller=/data/app/~~sg5QOrrvCJnJI03YhDG1RA==/com.google.android.webview-VTNI9ImYt4KQuk4hsm_Giw==/base.apk): ok
+ 16.48s  INFO [android] D/nativeloader(28128): Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-5 (caller=/data/app/~~sg5QOrrvCJnJI03YhDG1RA==/com.google.android.webview-VTNI9ImYt4KQuk4hsm_Giw==/base.apk): ok    
+ 16.50s  INFO [android] I/chromium(28128): [0419/011847.923407:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+ 16.50s  INFO [android] I/RustStdoutStderr(28128): [0419/011847.923407:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+ 16.50s  INFO [android] I/chromium(28128): [0419/011847.929147:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+ 16.50s  INFO [android] I/RustStdoutStderr(28128): [0419/011847.929147:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+ 16.56s  INFO [android] I/cr_LibraryLoader(28128): Successfully loaded native library
+ 16.57s  INFO [android] I/cr_CachingUmaRecorder(28128): Flushed 20 samples from 19 histograms, 0 samples were dropped.
+ 16.58s  INFO [android] I/cr_ChildProcLH(28128): ScopedServiceBindingBatch.tryActivate: false
+ 16.58s  INFO [android] I/cr_CombinedPProvider(28128): #registerProvider() provider:WV.qk@4f89ce7 isPolicyCacheEnabled:false policyProvidersSize:0
+ 16.59s  INFO [android] I/cr_PolicyProvider(28128): #setManagerAndSource() 0
+ 16.60s  INFO [android] I/cr_DisplayManager(28128): Is Display Topology available: false
+ 16.69s  INFO [android] I/cr_CombinedPProvider(28128): #linkNativeInternal() 1
+ 16.69s  INFO [android] D/CompatibilityChangeReporter(28128): Compat change id reported: 183155436; UID 10525; state: ENABLED
+ 16.69s  INFO [android] I/cr_AppResProvider(28128): #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]     
+ 16.69s  INFO [android] I/cr_PolicyProvider(28128): #notifySettingsAvailable() 0
+ 16.69s  INFO [android] I/cr_CombinedPProvider(28128): #onSettingsAvailable() 0
+ 16.69s  INFO [android] I/cr_CombinedPProvider(28128): #flushPolicies()
+ 16.75s ERROR [android] W/chromium(28128): [WARNING:net/dns/dns_config_service_android.cc:69] Failed to read DnsConfig.
+ 16.75s  INFO [android] I/RustStdoutStderr(28128): [WARNING:net/dns/dns_config_service_android.cc:69] Failed to read DnsConfig.
+ 16.80s ERROR [android] W/chromium(28128): [WARNING:android_webview/browser/network_service/net_helpers.cc:137] HTTP Cache size is: 20971520
+ 16.80s  INFO [android] I/RustStdoutStderr(28128): [WARNING:android_webview/browser/network_service/net_helpers.cc:137] HTTP Cache size is: 20971520
+ 16.83s  INFO [android] D/CompatibilityChangeReporter(28128): Compat change id reported: 214741472; UID 10525; state: ENABLED
+ 16.84s  INFO [android] D/CompatibilityChangeReporter(28128): Compat change id reported: 171228096; UID 10525; state: ENABLED
+ 17.05s  INFO [android] I/Choreographer(28128): Skipped 48 frames!  The application may be doing too much work on its main thread.
+ 17.06s  INFO [android] I/CameraManagerGlobal(28128): Connecting to camera service
+ 17.07s  INFO [android] D/CompatibilityChangeReporter(28128): Compat change id reported: 193247900; UID 10525; state: ENABLED
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): performTraversals params={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   fl=81810100
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   pfl=12020040
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   bhv=DEFAULT
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   fitSides= naviIconColor=0}
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): performTraversals mFirst=true windowShouldResize=true viewVisibilityChanged=false mForceNextWindowRelayout=false params={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x1030309
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   fl=81810100
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   pfl=12020040
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   bhv=DEFAULT
+ 17.08s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128):   fitSides= naviIconColor=0}
+ 17.09s  INFO [android] D/VendorTagDescriptor(28128): addVendorDescriptor: vendor tag id 14172875900359437128 added
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 0 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client ru.mirea.pulse API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client com.samsung.adaptivebrightnessgo API Level 2
+ 17.11s  INFO [android] I/CameraManager(28128): registerAvailabilityCallback: Is device callback = false
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 2 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): postSingleUpdate device: camera id 0 status STATUS_PRESENT
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): postSingleUpdate device: camera id 1 status STATUS_PRESENT
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): postSingleUpdate device: camera id 2 status STATUS_PRESENT
+ 17.11s  INFO [android] D/BufferQueueConsumer(28128): [](id:6de000000000,api:0,p:-1,c:28128) connect: controlledByApp=false
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 23 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 50 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client com.sec.android.app.camera API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 52 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2
+ 17.11s  INFO [android] I/CameraManagerGlobal(28128): Camera 54 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2
+ 17.12s  INFO [android] D/BLASTBufferQueue(28128): new BLASTBufferQueue, mNativeObject= 0x7aaa105480 name= ViewRootImpl@56eb2b[MainActivity] sc.mNativeObject= 0x7ab0cc4180 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309 android.view.Choreographer.doCallbacks:923 android.view.Choreographer.doFrame:852 android.view.Choreographer$FrameDisplayEventReceiver.run:1283
+ 17.12s  INFO [android] D/BLASTBufferQueue(28128): update, w= 720 h= 1600 mNativeObject= 0x7aaa105480 sc.mNativeObject= 0x7ab0cc4180 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:76 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2789 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665
+ 17.12s ERROR [android] E/FBI     (28128): Can't load library: dlopen failed: library "libmagtsync.so" not found
+ 17.12s  INFO [android] I/ViewRootImpl@56eb2b[MainActivity](28128): Relayout returned: old=(0,0,720,1600) new=(0,0,720,1600) req=(720,1600)0 dur=29 res=0x3 s={true 0x7ab0d99000} ch=true seqId=0
+ 17.13s  INFO [android] I/DecorView(28128): getCurrentDensityDpi: from real metrics. densityDpi=300 msg=remove_caption
+ 17.13s  INFO [android] I/DecorView(28128): [INFO] isPopOver=false config=true
+ 17.13s  INFO [android] I/DecorView(28128): updateCaptionType: isFloating=false isApplication=true hasWindowDecorCaption=false this=DecorView@93ab4d3[MainActivity]
+ 17.13s  INFO [android] D/DecorView(28128): setCaptionType = 0, this = DecorView@93ab4d3[MainActivity]
+ 17.13s  INFO [android] I/MSHandlerLifeCycle(28128): removeMultiSplitHandler: no exist. decor=DecorView@93ab4d3[MainActivity]
+ 17.14s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): mThreadedRenderer.initialize() mSurface={isValid=true 0x7ab0d99000} hwInitialized=true
+ 17.15s  INFO [android] D/OpenGLRenderer(28128): eglCreateWindowSurface
+ 17.15s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): reportNextDraw android.view.ViewRootImpl.performTraversals:4313 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301 android.view.Choreographer$CallbackRecord.run:1309
+ 17.15s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): Setup new sync id=0
+ 17.15s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): Setting syncFrameCallback
+ 17.15s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): registerCallbacksForSync syncBuffer=false
+ 17.15s  INFO [android] D/libMEOW (28128): meow new tls: 0x7a450e2e00
+ 17.15s  INFO [android] D/libMEOW (28128): applied 2 plugins for [com.vuduczuy.counter]:
+ 17.15s  INFO [android] D/libMEOW (28128):   plugin 1: [libMEOW_gift.so]:
+ 17.15s  INFO [android] D/libMEOW (28128):   plugin 2: [libMEOW_semaphore]:
+ 17.18s ERROR [android] E/ion     (28128): ioctl c0044901 failed with code -1: Invalid argument
+ 17.18s  INFO [android] D/vulkan  (28128): searching for layers in '/data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64'
+ 17.18s  INFO [android] D/vulkan  (28128): searching for layers in '/data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/base.apk!/lib/arm64-v8a'
+ 17.18s ERROR [android] W/libc    (28128): Access denied finding property "vendor.debug.forcibly_enable_mtk_ray_tracing"  
+ 17.23s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): Received frameDrawingCallback syncResult=0 frameNum=1.
+ 17.23s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): Setting up sync and frameCommitCallback
+ 17.23s  INFO [android] D/hw-ProcessState(28128): Binder ioctl to enable oneway spam detection failed: Invalid argument   
+ 17.57s  INFO [android] D/BLASTBufferQueue(28128): [ViewRootImpl@56eb2b[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=720x1600 mFrameNumber=1 applyTransaction=true mTimestamp=2221572893320108(auto) mPendingTransactions.size=0 graphicBufferId=120808840101890 transform=0
+ 17.57s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+ 17.57s  INFO [android] D/OpenGLRenderer(28128): CFMS:: SetUp Pid : 28128    Tid : 28191
+ 17.57s ERROR [android] W/Parcel  (28128): Expecting binder but got null!
+ 17.57s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): onSyncComplete
+ 17.57s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): setupSync seqId=0 mSyncId=0 fn=1 caller=android.view.ViewRootImpl$$ExternalSyntheticLambda11.accept:6 android.window.SurfaceSyncer.lambda$setupSync$1$android-window-SurfaceSyncer:128 android.window.SurfaceSyncer$$ExternalSyntheticLambda1.accept:8 android.window.SurfaceSyncer$SyncSet.checkIfSyncIsComplete:382 android.window.SurfaceSyncer$SyncSet.markSyncReady:359 android.window.SurfaceSyncer.markSyncReady:151 android.view.ViewRootImpl.performTraversals:4373
+ 17.59s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): reportDrawFinished seqId=0 mSyncId=-1 fn=1 mSurfaceChangedTransaction=0x7b6e19f900
+ 17.59s  INFO [android] I/OpenGLRenderer(28128): Davey! duration=1327ms; Flags=1, FrameTimelineVsyncId=511994186, IntendedVsync=2221571567490492, Vsync=2221572366556188, InputEventId=0, HandleInputStart=2221572382843184, AnimationStart=2221572382888954, PerformTraversalsStart=2221572383075415, DrawStart=2221572475868415, FrameDeadline=2221571055431880, FrameInterval=2221572382552415, FrameStartTime=16647202, SyncQueued=2221572554540338, SyncStart=2221572554675184, IssueDrawCommandsStart=2221572556907415, SwapBuffers=2221572890189569, FrameCompleted=2221572894720338, DequeueBufferDuration=21846, QueueBufferDuration=1187154, GpuCompleted=2221572892552723, SwapBuffersCompleted=2221572894720338, DisplayPresentTime=9159504801554045206, CommandSubmissionCompleted=2221572890189569,
+ 17.59s  INFO [android] I/Choreographer(28128): Skipped 30 frames!  The application may be doing too much work on its main thread.
+ 17.59s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): performTraversals mFirst=false windowShouldResize=false viewVisibilityChanged=false mForceNextWindowRelayout=true params=null
+ 17.61s  INFO [android] D/BLASTBufferQueue(28128): update, w= 720 h= 1600 mNativeObject= 0x7aaa105480 sc.mNativeObject= 0x7a451cd140 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:2778 android.view.ViewRootImpl.relayoutWindow:9635 android.view.ViewRootImpl.performTraversals:3759 android.view.ViewRootImpl.doTraversal:2991 android.view.ViewRootImpl$TraversalRunnable.run:10665 android.view.Choreographer$CallbackRecord.run:1301
+ 17.61s  INFO [android] I/ViewRootImpl@56eb2b[MainActivity](28128): Relayout returned: old=(0,0,720,1600) new=(0,0,720,1600) req=(720,1600)0 dur=23 res=0x0 s={true 0x7ab0d99000} ch=false seqId=0
+ 17.63s  INFO [android] D/OpenGLRenderer(28128): setSurface() destroyed EGLSurface
+ 17.63s  INFO [android] D/OpenGLRenderer(28128): destroyEglSurface
+ 17.63s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): mThreadedRenderer.updateSurface() mSurface={isValid=true 0x7ab0d99000}
+ 17.63s  INFO [android] D/OpenGLRenderer(28128): eglCreateWindowSurface
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128): [ViewRootImpl@56eb2b[MainActivity]#0](f:0,a:2) producer disconnected before: mAbandoned=0
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128): - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   mDequeueBufferCannotBlock=0 mAsyncMode=0
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   mQueueBufferCanDrop=0 mLegacyBufferDrop=1
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   default-size=[720x1600] default-format=2   transform-hint=00 frame-counter=2
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   mTransformHintInUse=00 mAutoPrerotation=0
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128): FIFO(0):
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128): (mConsumerName=ViewRootImpl@56eb2b[MainActivity]#0(BLAST Consumer)0, mConnectedApi=1, mConsumerUsageBits=2304, mId=6de000000000, producer=[28128:com.vuduczuy.counter], consumer=[28128:com.vuduczuy.counter])
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128): Slots:
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):  >[00:0x7a44f9c400] state=ACQUIRED 0x7ab0cbc580 frame=2 [ 720x1600: 720,  1]
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   [01:0x0] state=FREE
+ 17.71s  INFO [android] D/BLASTBufferQueue(28128):   [02:0x0] state=FREE
+ 17.71s  INFO [android] I/ViewRootImpl@56eb2b[MainActivity](28128): stopped(true) old = false
+ 17.71s  INFO [android] D/ViewRootImpl@56eb2b[MainActivity](28128): WindowStopped on com.vuduczuy.counter/dev.dioxus.main.MainActivity set to true
+ 17.91s ERROR [android] W/RefBase (28128): RefBase: Explicit destruction, weak count = 0 (in 0x7b51fe3980). Use sp<> to manage this object.
+ 18.01s  INFO [android] D/RefBase (28128): #00 pc 0000000000101358  /apex/com.android.runtime/lib64/bionic/libc.so (__cxa_finalize+280)
+ 18.01s  INFO [android] D/RefBase (28128): #01 pc 00000000000f3078  /apex/com.android.runtime/lib64/bionic/libc.so (exit+24)
+ 18.01s  INFO [android] D/RefBase (28128): #02 pc 0000000001e0b4e4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::sys::pal::unix::os::exit::h1a075130855c4fa6+8)
+ 18.01s  INFO [android] D/RefBase (28128): #03 pc 0000000001e17dac  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::process::exit::h4a181eca20e68505+24)
+ 18.01s  INFO [android] D/RefBase (28128): #04 pc 000000000115afac  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tao::platform_impl::platform::EventLoop$LT$T$GT$::run::hfbd01c49ef479cfb+96)
+ 18.01s  INFO [android] D/RefBase (28128): #05 pc 00000000010d07c4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tao::event_loop::EventLoop$LT$T$GT$::run::h373cde225b257711+84)        
+ 18.02s  INFO [android] D/RefBase (28128): #06 pc 00000000010b6334  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::launch::launch_virtual_dom_blocking::hbd3d8e2f348688f2+396)
+ 18.02s  INFO [android] D/RefBase (28128): #07 pc 00000000010b6160  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::launch::launch_virtual_dom::_$u7b$$u7b$closure$u7d$$u7d$::h84a06b820af5c324+116)
+ 18.02s  INFO [android] D/RefBase (28128): #08 pc 00000000010b5af8  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (_$LT$tokio..task..coop..unconstrained..Unconstrained$LT$F$GT$$u20$as$u20$core..future..future..Future$GT$::poll::_$u7b$$u7b$closure$u7d$$u7d$::hd36e1fd22881f7b5+28)
+ 18.02s  INFO [android] D/RefBase (28128): #09 pc 00000000010b5a74  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (_$LT$tokio..task..coop..unconstrained..Unconstrained$LT$F$GT$$u20$as$u20$core..future..future..Future$GT$::poll::h1d40f1a409e107be+256)
+ 18.02s  INFO [android] D/RefBase (28128): #10 pc 00000000010fafa8  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::park::CachedParkThread::block_on::_$u7b$$u7b$closure$u7d$$u7d$::h68ead204d853286d+52)
+ 18.02s  INFO [android] D/RefBase (28128): #11 pc 00000000010faa7c  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::park::CachedParkThread::block_on::hbc4e1b7d0ca920d0+604)
+ 18.02s  INFO [android] D/RefBase (28128): #12 pc 000000000112c4cc  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::context::blocking::BlockingRegionGuard::block_on::h250e040cf6267b5d+120)
+ 18.02s  INFO [android] D/RefBase (28128): #13 pc 000000000116c7a4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::scheduler::multi_thread::MultiThread::block_on::_$u7b$$u7b$closure$u7d$$u7d$::h7cf7180c0bdf84f2+64)
+ 18.02s  INFO [android] D/RefBase (28128): #14 pc 00000000010d3410  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::context::runtime::enter_runtime::h599e6bf1f37d71fd+212)
+ 18.02s  INFO [android] D/RefBase (28128): #15 pc 000000000116c6fc  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::scheduler::multi_thread::MultiThread::block_on::hf828136c766a36b3+80)
+ 18.02s  INFO [android] D/RefBase (28128): #16 pc 00000000011f6bd4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::runtime::Runtime::block_on_inner::h739e183645c8cdb6+172)
+ 18.02s  INFO [android] D/RefBase (28128): #17 pc 00000000011f6dd4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tokio::runtime::runtime::Runtime::block_on::hb4484dcec8f8d56c+340)     
+ 18.02s  INFO [android] D/RefBase (28128): #18 pc 00000000010b6068  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::launch::launch_virtual_dom::h7d1b148bd941f212+756)     
+ 18.02s  INFO [android] D/RefBase (28128): #19 pc 00000000010b6d90  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::launch::launch::h1b4f271c4dfe34f9+708)
+ 18.02s  INFO [android] D/RefBase (28128): #20 pc 0000000001041e24  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus::launch::LaunchBuilder::launch::hc6642e1fc6ba925b+212)
+ 18.02s  INFO [android] D/RefBase (28128): #21 pc 0000000001041fa8  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus::launch::launch::hbfe88bf98d86074c+40)
+ 18.02s  INFO [android] D/RefBase (28128): #22 pc 0000000001002548  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (counter_mobile_app::main::hefcb2c2780cf193c+132)
+ 18.02s  INFO [android] D/RefBase (28128): #23 pc 0000000001005c78  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (core::ops::function::FnOnce::call_once::ha5393f9c702c91e5+16)
+ 18.02s  INFO [android] D/RefBase (28128): #24 pc 0000000001003b78  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::sys::backtrace::__rust_begin_short_backtrace::hf50dc73ae8596196+20)
+ 18.02s  INFO [android] D/RefBase (28128): #25 pc 00000000010137d4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::rt::lang_start::_$u7b$$u7b$closure$u7d$$u7d$::ha33c47161d3b4b44+24)
+ 18.02s  INFO [android] D/RefBase (28128): #26 pc 0000000001e02fb0  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::rt::lang_start_internal::hc675dd3a795a2051+588)
+ 18.02s  INFO [android] D/RefBase (28128): #27 pc 00000000010137ac  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::rt::lang_start::hfd00fa900d6db3e5+80)
+ 18.02s  INFO [android] D/RefBase (28128): #28 pc 000000000100316c  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (main+44)
+ 18.02s  INFO [android] D/RefBase (28128): #29 pc 000000000113f98c  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::mobile::start_app::root::_$u7b$$u7b$closure$u7d$$u7d$::h6e183a923c53c26b+824)
+ 18.02s  INFO [android] D/RefBase (28128): #30 pc 00000000011e2cd4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (_$LT$core..panic..unwind_safe..AssertUnwindSafe$LT$F$GT$$u20$as$u20$core..ops..function..FnOnce$LT$$LP$$RP$$GT$$GT$::call_once::h75bbd5b7cf888ae8+12)
+ 18.02s  INFO [android] D/RefBase (28128): #31 pc 00000000011e6110  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::panicking::catch_unwind::do_call::h1c43ea7e44842720+20)
+ 18.02s  INFO [android] D/RefBase (28128): #32 pc 000000000117ee78  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (__rust_try+28)
+ 18.02s  INFO [android] D/RefBase (28128): #33 pc 0000000001177a24  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::panic::catch_unwind::h6eb235cf3aa72963+40)
+ 18.02s  INFO [android] D/RefBase (28128): #34 pc 000000000113f584  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::mobile::start_app::root::stop_unwind::he907b24fe67060f3+12)
+ 18.02s  INFO [android] D/RefBase (28128): #35 pc 000000000113f648  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (dioxus_desktop::mobile::start_app::root::hca32cfe7fedcab8f+8)
+ 18.02s  INFO [android] D/RefBase (28128): #36 pc 00000000015a3ac4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (tao::platform_impl::platform::ndk_glue::create::_$u7b$$u7b$closure$u7d$$u7d$::hf8c6d245ecd4b14c+780)
+ 18.02s  INFO [android] D/RefBase (28128): #37 pc 00000000015a5a58  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::sys::backtrace::__rust_begin_short_backtrace::h2daa00ed6ddb7a3a+28)
+ 18.02s  INFO [android] D/RefBase (28128): #38 pc 0000000001593660  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::thread::lifecycle::spawn_unchecked::_$u7b$$u7b$closure$u7d$$u7d$::_$u7b$$u7b$closure$u7d$$u7d$::h544dcc274d1fe287+100)
+ 18.02s  INFO [android] D/RefBase (28128): #39 pc 000000000159e01c  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (_$LT$core..panic..unwind_safe..AssertUnwindSafe$LT$F$GT$$u20$as$u20$core..ops..function..FnOnce$LT$$LP$$RP$$GT$$GT$::call_once::ha900bd13185c6346+40)
+ 18.02s  INFO [android] D/RefBase (28128): #40 pc 00000000015a84c0  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::panicking::catch_unwind::do_call::h360e8d1907f33706+48)
+ 18.02s  INFO [android] D/RefBase (28128): #41 pc 0000000001594600  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (__rust_try+28)
+ 18.02s  INFO [android] D/RefBase (28128): #42 pc 00000000015930b4  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::thread::lifecycle::spawn_unchecked::_$u7b$$u7b$closure$u7d$$u7d$::hac20ac02b619ea69+216)
+ 18.02s  INFO [android] D/RefBase (28128): #43 pc 000000000159a44c  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (core::ops::function::FnOnce::call_once$u7b$$u7b$vtable.shim$u7d$$u7d$::hbcb1e8bf957ea6c4+20)
+ 18.02s  INFO [android] D/RefBase (28128): #44 pc 0000000001e0d108  /data/app/~~QCLLT2A8fMoWK33SfgX4PQ==/com.vuduczuy.counter-mqnxf_3fuQgNvzvoxOn4gQ==/lib/arm64/libmain.so (std::sys::thread::unix::Thread::new::thread_start::h3a321686f75969d9+348)
+ 18.02s  INFO [android] D/RefBase (28128): #45 pc 00000000000fd040  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208)
+ 18.02s  INFO [android] D/RefBase (28128): #46 pc 000000000008f5e0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)

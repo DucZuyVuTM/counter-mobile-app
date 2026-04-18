@@ -31,8 +31,9 @@ package_id = "com.vuduczuy.counter"
 app_name = "CounterMobile"
 
 [android]
-# Minimum SDK version (usually 21 for Android 5.0+)
+architectures = ["aarch64", "armv7", "x86_64"]
 min_sdk_version = 21
+target_sdk_version = 33
 # You can add permissions here if needed (example: internet)
 build_features = ["viewBinding"]
 
