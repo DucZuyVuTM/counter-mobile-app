@@ -43,7 +43,7 @@ jobs:
           tool: dioxus-cli
 
       - name: Build Android APK
-        run: dx build --platform android --release
+        run: dx build --platform android --release --target aarch64-linux-android
 
       - name: Prepare APK
         run: |

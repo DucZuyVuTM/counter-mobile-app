@@ -8,17 +8,17 @@ edition = "2021"
 
 [dependencies]
 # All platforms
-dioxus = { version = "0.7.1" }
+dioxus = { version = "0.7.5" }
 log = "0.4"
 
 # Android OS
 [target.'cfg(target_os = "android")'.dependencies]
-dioxus = { version = "0.7.1", features = ["mobile"] }
+dioxus = { version = "0.7.5", features = ["mobile"] }
 android_logger = "0.13"
 
 # Web
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-dioxus = { version = "0.7.1", features = ["web"] }
+dioxus = { version = "0.7.5", features = ["web"] }
 wasm-logger = "0.2"
 
 [features]
