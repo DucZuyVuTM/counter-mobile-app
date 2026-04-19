@@ -41,4 +41,4 @@ build_features = ["viewBinding"]
 # Information for packaging the app
 identifier = "com.vuduczuy.counter"
 publisher = "VuDucZuy"
-icon = ["assets/favicon.ico"]
+icon = ["assets/icon.png"]
