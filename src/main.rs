@@ -31,20 +31,17 @@ fn main() {
 
 #[component]
 fn App() -> Element {
-    let mut show_splash = use_signal(|| true);
-
-    use_effect(move || {
-        spawn(async move {
+    use_effect(|| {
+        spawn(async {
             let _ = document::eval(r#"
-                setTimeout(() => {
-                    const counter = document.getElementById('counter');
-                    if (counter) counter.style.visibility = 'visible';
-                }, 300);
+                new Promise(resolve => {
+                    setTimeout(() => {
+                        const counter = document.getElementById('counter');
+                        if (counter) counter.style.visibility = 'visible';
+                        resolve();
+                    }, 300);
+                })
             "#).await;
-
-            // Wait 300ms for fading out and use Dioxus to delete splash
-            gloo_timers::future::TimeoutFuture::new(600).await;
-            show_splash.set(false);
         });
     });
 
@@ -52,18 +49,6 @@ fn App() -> Element {
         document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: MAIN_CSS }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
-
-        if show_splash() {
-            div {
-                id: "splash",
-                class: "fixed inset-0 bg-gray-100 z-[9999] flex flex-col gap-3 items-center justify-center",
-                style: "opacity: 1; transition: opacity 0.3s ease;",
-                div {
-                    id: "splash-spinner",
-                    class: "block w-12 h-12 rounded-full border-[5px] border-gray-300 border-t-blue-500 animate-spin shrink-0",
-                }
-            }
-        }
 
         div {
             id: "counter",
