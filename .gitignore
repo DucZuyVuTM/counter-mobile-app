@@ -13,5 +13,5 @@ release-key-base64.txt
 # Generated HTML index file
 /index.html
 
-# Temporary cargo configuration
+# Temporary Cargo configuration
 /.cargo
