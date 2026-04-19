@@ -9,3 +9,6 @@
 # Release key
 counter-app-release-key.jks
 release-key-base64.txt
+
+# Generated HTML index file
+/index.html

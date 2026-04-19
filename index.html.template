@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* This style loads right before Wasm */
+      body {
+        margin: 0;
+        background-color: #f3f4f6;
+        overflow: hidden;
+      }
+
+      #main {
+        visibility: hidden;
+      }
+
+      #splash {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: #f3f4f6;
+        z-index: 9999;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+
+      #splash-icon {
+        width: 96px !important;
+        height: 96px !important;
+        display: block !important;
+        flex-shrink: 0 !important;
+      }
+
+      #splash-icon svg {
+        width: 100% !important;
+        height: 100% !important;
+        display: block !important;
+      }
+
+      #splash-spinner {
+        display: block !important;
+        width: 48px !important;
+        height: 48px !important;
+        border: 5px solid #d1d5db !important;
+        border-top-color: #3b82f6 !important;
+        border-radius: 50% !important;
+        animation: spin 0.8s linear infinite !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Splash is immediately displayed, before Wasm loading -->
+    <div id="splash">
+      <div id="splash-icon">
+        {{ICON_SVG}}
+      </div>
+      
+      <div id="splash-spinner"></div>
+    </div>
+
+    <div id="main"></div>
+  </body>
+</html>
