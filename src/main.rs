@@ -110,19 +110,19 @@ pub fn Counter() -> Element {
 
             div { class: "flex flex-col gap-4 sm:flex-row",
                 button {
-                    class: "px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
+                    class: "px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md transition duration-200 cursor-pointer",
                     onclick: handle_increment,
                     "Increase"
                 }
 
                 button {
-                    class: "px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
+                    class: "px-6 py-3 bg-red-500 text-white font-semibold rounded-lg shadow-md transition duration-200 cursor-pointer",
                     onclick: handle_decrement,
                     "Decrease"
                 }
 
                 button {
-                    class: "px-6 py-3 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition duration-200",
+                    class: "px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg shadow-md transition duration-200 cursor-pointer",
                     onclick: handle_reset,
                     "Reset"
                 }
