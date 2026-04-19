@@ -31,6 +31,27 @@ fn main() {
 
 #[component]
 fn App() -> Element {
+    use_effect(|| {
+        spawn(async {
+            let _ = document::eval(r#"
+                const main = document.getElementById('main');
+                const splash = document.getElementById('splash');
+                
+                setTimeout(() => {
+                    if (main) main.style.visibility = 'visible';
+                    if (splash) {
+                        splash.style.opacity = '0';
+                        splash.style.transition = 'opacity 0.3s ease';
+                        setTimeout(() => {
+                            splash.remove();
+                            document.body.style.overflow = '';
+                        }, 300);
+                    }
+                }, 300);
+            "#).await;
+        });
+    });
+
     rsx! {
         document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: MAIN_CSS }
