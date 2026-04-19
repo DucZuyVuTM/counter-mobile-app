@@ -17,14 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-
-      - name: Generate index.html
-        run: python generate.py
-
       - name: Set up Rust
         uses: dtolnay/rust-toolchain@stable
         with:
