@@ -9,6 +9,7 @@ edition = "2021"
 [dependencies]
 # All platforms
 dioxus = { version = "0.7.5" }
+gloo-timers = { version = "0.3", features = ["futures"] }
 log = "0.4"
 
 # Android OS

@@ -31,24 +31,20 @@ fn main() {
 
 #[component]
 fn App() -> Element {
-    use_effect(|| {
-        spawn(async {
+    let mut show_splash = use_signal(|| true);
+
+    use_effect(move || {
+        spawn(async move {
             let _ = document::eval(r#"
-                const main = document.getElementById('main');
-                const splash = document.getElementById('splash');
-                
                 setTimeout(() => {
-                    if (main) main.style.visibility = 'visible';
-                    if (splash) {
-                        splash.style.opacity = '0';
-                        splash.style.transition = 'opacity 0.3s ease';
-                        setTimeout(() => {
-                            splash.remove();
-                            document.body.style.overflow = '';
-                        }, 300);
-                    }
+                    const counter = document.getElementById('counter');
+                    if (counter) counter.style.visibility = 'visible';
                 }, 300);
             "#).await;
+
+            // Wait 300ms for fading out and use Dioxus to delete splash
+            gloo_timers::future::TimeoutFuture::new(600).await;
+            show_splash.set(false);
         });
     });
 
@@ -57,7 +53,23 @@ fn App() -> Element {
         document::Link { rel: "stylesheet", href: MAIN_CSS }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
 
-        Counter {}
+        if show_splash() {
+            div {
+                id: "splash",
+                class: "fixed inset-0 bg-gray-100 z-[9999] flex flex-col gap-3 items-center justify-center",
+                style: "opacity: 1; transition: opacity 0.3s ease;",
+                div {
+                    id: "splash-spinner",
+                    class: "block w-12 h-12 rounded-full border-[5px] border-gray-300 border-t-blue-500 animate-spin shrink-0",
+                }
+            }
+        }
+
+        div {
+            id: "counter",
+            style: "visibility: hidden;",
+            Counter {}
+        }
     }
 }
 

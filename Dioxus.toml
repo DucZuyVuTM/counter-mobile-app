@@ -42,3 +42,6 @@ build_features = ["viewBinding"]
 identifier = "com.vuduczuy.counter"
 publisher = "VuDucZuy"
 icon = ["assets/icon.png"]
+
+[android.splash]
+background_color = "#f3f4f6"
