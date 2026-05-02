@@ -35,3 +35,13 @@ opt-level = 'z'    # Optimize file size
 lto = true         # Link Time Optimization
 codegen-units = 1
 panic = 'abort'    # Reduce binary size
+
+[profile.dev]
+opt-level = 0
+debug = 1
+codegen-units = 256
+split-debuginfo = "unpacked"
+incremental = true
+
+[profile.dev.package."*"]
+opt-level = 2
